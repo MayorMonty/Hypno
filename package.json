@@ -1,0 +1,33 @@
+{
+  "name": "hypno",
+  "version": "0.0.0",
+  "description": "A library for RESTful APIs",
+  "main": "build/hypno.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mayormonty/hypno.git"
+  },
+  "keywords": [
+    "api",
+    "rest"
+  ],
+  "author": "Brendan McGuire <artificalchamber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayormonty/hypno/issues"
+  },
+  "homepage": "https://github.com/mayormonty/hypno#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-closure-compiler": "^0.4.0",
+    "gulp-jsdoc3": "^0.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^2.3.0",
+    "minami": "^1.1.1",
+    "rollup": "^0.34.1"
+  },
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
